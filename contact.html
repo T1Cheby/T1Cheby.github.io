@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookstore.css" >
+    <title>Contact page</title>
+</head>
+<body>
+    <header>
+        <!-- Original image below sourced for educational purposes:https://pbs.twimg.com/media/DlOuq30XsAEzUgT?format=jpg&name=4096x4096 -->
+    <div class="top">
+        <img id="logo" src="Logo.jpeg" height=100px alt="logo image">
+        <nav class="navigation">
+          <a href="index.html">Home</a> 
+          <a href="category.html">Romance</a>
+          <a href="category.html">Fantasy</a>
+          <a href="category.html">Horror</a>
+          <a href="category.html">Historical</a>
+          <a href="category.html">Mystery</a>
+      </nav></div>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form action="#" method="POST" enctype="application/x-www-form-urlencoded">
+            <select name="options" id="option">
+                <option value="" selected>Please Select</option>
+                <option value="sell">I want to sell books</option>
+                <option value="buy">I want to buy books</option>
+            </select>
+            <br><br>
+            <label for="name">Your name:</label>
+            <input type="text" id="your-name" name="name"><br><br>
+            <label for="email">Your email:</label>
+            <input type="email" name="emails" id="email">
+            <br><br>
+            <label for="phones" id="phone-number" >Your phone:</label>
+            <input type="number" id="customer-phone" name="phone">
+            <br><br>
+            <label for="contacts">How can we contact you:</label>
+            <input type="checkbox" name="by-email" value="email"/>By email
+            <input type="checkbox" name="by-phone" value="phones"/>By phone
+            <br><br>
+            <label for="receives">Do you want to receive our weekly newsletter:</label>
+            <input type="radio" class="newspaper" name="receive" value="bad" checked>Yes
+            <input type="radio" class="newspaper" name="receive" value="good">No
+            <br><br>
+            <textarea></textarea>
+            <br><br>
+            <input type="submit" id="submit" value="Submit" class="buttons">
+            <input type="reset" name="need" value="Reset" class="buttons"/>
+        </form> 
+    </main>
+    <footer>
+        <nav class="navigation-bottom">
+            <a href="#">About Us</a> 
+            <a href="#">Private Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Copyright</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
